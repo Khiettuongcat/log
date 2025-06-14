@@ -1,12 +1,11 @@
-import time
 
 from log import log
 
-log.debug('hhehehehhe')
-log.info('hhehehehhe')
-log.warn('hhehehehhe')
-log.success('hhehehehhe')
-log.error('hhehehehhe')
+log.debug('log data check')
+log.info('log data check')
+log.warn('log data check')
+log.success('log data check')
+log.error('log data check')
 
 
 name_file = 'data/data_test.log ' # model log_file it will log all fill text or log file .log
@@ -29,3 +28,5 @@ log.log_file(name_file, data, level='')
  2025-06-14  09:45:20 | 🐞 log data check
  2025-06-14  09:45:20 | LOG log data check
 """
+
+log.log_custom(level='info', message='log data check' ,color='BOLD', log_file=r'data\data_test.log')

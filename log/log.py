@@ -1,7 +1,7 @@
 from .setting import Colors as colors
 import datetime  as dt
 import os
-from pathlib import Path
+
 
 class Log:
 

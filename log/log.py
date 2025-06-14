@@ -21,7 +21,7 @@ class Log:
 
     @staticmethod
     def debug(message):
-        return print(colors.ITALIC + '[debug]',message + colors.END, sep=" ")
+        return print(colors.ITALIC + '[debug 🐞]',message + colors.END, sep=" ")
 
     @staticmethod
     def log_file(link_file, message, level):
@@ -30,6 +30,7 @@ class Log:
             "warn": "WARN",
             "error": "ERROR",
             "success": "OK",
+            'debug' : "🐞",
             "default": "LOG",
         }
         label = LABELS.get(level, LABELS['default'])

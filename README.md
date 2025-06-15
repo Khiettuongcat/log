@@ -56,3 +56,6 @@
     BLINK     
     NEGATIVE    
     CROSSED   
+
+# import 
+    from log import log

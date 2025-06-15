@@ -56,6 +56,7 @@
     BLINK     
     NEGATIVE    
     CROSSED   
-
+# install 
+     pip install git+https://github.com/Khiettuongcat/log.git
 # import 
     from log import log

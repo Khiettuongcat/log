@@ -11,7 +11,7 @@ class Log:
 
     @staticmethod
     def success(message):
-        return print(colors.GREEN + "[success]",message + colors.END, sep=" ")
+        return print(colors.GREEN + "[ ✅ success]",message + colors.END, sep=" ")
 
     @staticmethod
     def warn(message):
@@ -31,7 +31,7 @@ class Log:
             "info": "INFO",
             "warn": "WARN",
             "error": "ERROR",
-            "success": "OK",
+            "success": "✅",
             'debug' : "🐞",
             "default": "LOG",
         }
